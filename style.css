@@ -1,0 +1,66 @@
+body {
+    background-image: url('https://media.assettype.com/analyticsinsight%2Fimport%2Fwp-content%2Fuploads%2F2021%2F05%2FAdobeStock_288803828-1-scaled.jpeg?w=1024&auto=format%2Ccompress&fit=max');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 10 ;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff9800; /* Orange color */
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Smaller size */
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #e68900; /* Darker orange on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+#buyButton {
+    background-color: #28a745;
+    color: white;
+}
+
+#sellButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+#signupButton {
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
