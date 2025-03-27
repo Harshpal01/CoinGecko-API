@@ -12,8 +12,14 @@ The Cryptocurrency Price Checker is a web application that allows users to retri
 - **User-Friendly Interface:** Alerts users if the entered cryptocurrency name is invalid or if there's an error in fetching data.
 
 ## API Used
-This application utilizes the CoinGecko API to fetch real-time cryptocurrency data. CoinGecko provides a comprehensive and reliable source of cryptocurrency market data without the need for API keys, making it accessible for developers and enthusiasts.
-https://www.coingecko.com/en/api
+This application utilizes the [CoinGecko API](https://www.coingecko.com/en/api) to fetch real-time cryptocurrency data. CoinGecko provides a comprehensive and reliable source of cryptocurrency market data without the need for API keys, making it accessible for developers and enthusiasts.
+
+## Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/Harshpal01/CoinGecko-API
 
 ## Usage
 1. Enter Cryptocurrency Name:
@@ -57,3 +63,7 @@ CoinGecko API: For retrieving real-time cryptocurrency price data.
 
 ## Author
 This project was developed by Dominic Kipkorir.
+
+## License
+This project is licensed under the MIT License. See the foollowing link for description
+https://github.com/Harshpal01/CoinGecko-API/blob/main/LICENSE
